@@ -6,6 +6,12 @@ A custom ServiceNow application built to manage and store student records within
 
 ## 🛠️ Features
 
+- Custom Table: `student_registration`
+- UI Policy: Phone Number mandatory if Year > 1
+- Business Rule: Auto-generates unique Student ID (STU20250001 format)
+- Field validations and mandatory rules
+- Scoped under: `Student Management`
+
 - 📁 Custom Scoped Application: `Student Management`
 - 🗃️ Custom Table: `Student_registration`
 - 📝 Fields:
@@ -21,6 +27,18 @@ A custom ServiceNow application built to manage and store student records within
 - ⬆️ Update Set Export for Migration to Higher Instances
 
 ---
+## 🛠️ Modules Used
+- Tables and Columns
+- UI Policies
+- Business Rules
+- Application Scope: `x_993446_student_m_student_registration`
+  
+---
+
+## 🧪 How to Test
+1. Navigate to Student Registration
+2. Create a new student (Year > 1 → phone required)
+3. Check auto-generated Student ID
 
 ## 🚀 How to Deploy
 
